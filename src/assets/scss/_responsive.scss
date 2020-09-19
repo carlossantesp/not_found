@@ -18,10 +18,14 @@
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         &__img{
-            width: 80%;
+            width: 90%;
+            margin: 0;
             display: flex;
             justify-content: center;
             align-items: center;
+        }
+        &__description{
+            max-width: 25rem;
         }
     }
 }
