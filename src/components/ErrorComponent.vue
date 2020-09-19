@@ -1,13 +1,13 @@
 <template>
   <div class="container">
     <div class="hero">
-      <div class="hero__img">
+      <div class="hero__img animate__animated animate__zoomIn">
         <img :src="imageUrl" :alt="error.status">
       </div>
       <div class="hero__info">
-        <h2 class="hero__title">{{ error.title }}</h2>
-        <p class="hero__description">{{ error.description }}</p>
-        <a href="#" class="hero__btn">{{ error.btn }}</a>
+        <h2 class="hero__title animate__animated animate__zoomIn">{{ error.title }}</h2>
+        <p class="hero__description animate__animated animate__zoomIn">{{ error.description }}</p>
+        <a href="#" class="hero__btn animate__animated animate__zoomIn">{{ error.btn }}</a>
       </div>
     </div>    
   </div>

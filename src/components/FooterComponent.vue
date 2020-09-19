@@ -1,7 +1,7 @@
 <template>
   <footer class="footer">
     <div class="container">
-      <p class="footer__copy">
+      <p class="footer__copy animate__animated animate__fadeIn">
         {{ name }} &copy; {{ challenge }}
       </p>
     </div>
