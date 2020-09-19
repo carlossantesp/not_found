@@ -36,10 +36,7 @@
 
 ![screenshot](./screen.png)
 
-> If you want to see the demo visit the following link
-<a href="https://carlossantesp.github.io/not_found">
-Demo
-</a>
+> If you want to see the demo visit the following link [Demo](https://carlossantesp.github.io/not_found)
 
 This challenge for me was something interesting to solve, since it allowed me to first analyze how to make the template before coding.
 
@@ -81,5 +78,6 @@ yarn build
 ## Contact
 
 - GitHub [@carlossantesp](https://github.com/carlossantesp)
+- Linkedin [@dev-santillan-carlos](https://www.linkedin.com/in/dev-santillan-carlos/)
 
 
