@@ -1,0 +1,35 @@
+.hero{
+    display: flex;
+    flex-direction: column;
+    padding: 0 var(--space-md);
+    &__img{
+        width: 80%;
+        margin: var(--space-md) auto;
+        & img{
+            width: 100%;
+            display: block;
+        }
+    }
+    &__info{
+        padding-top: var(--space-md);
+        padding-bottom: var(--space-md);
+    }
+    &__title{
+        font-size: var(--font-lg);
+    }
+    &__description{
+        font-size: var(--font-md);
+        margin-top: var(--space-xlg);
+        margin-bottom: var(--space-xlg);
+    }
+    &__btn{
+        text-decoration: none;
+        color: #fff;
+        background-color: #ccc;
+        display: inline-block;
+        padding: var(--space-md) var(--space-lg);
+        &:hover{
+            background-color: #aaaaaa;
+        }
+    }
+}

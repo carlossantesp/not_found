@@ -1,0 +1,25 @@
+:root{
+    --fontPrimary: 'Space Mono', monospace;
+    --fontHeader: 'Inconsolata', monospace;
+    --fontFooter: 'Montserrat', sans-serif;
+    
+    --fontBolder: 700;
+    --fontBold: 600;
+    --fontNormal: 400;
+    
+    --fontBase: 16px;
+    --font-sm: 0.85rem;
+    --font-md: 1.5rem;
+    --font-lg: 2.4rem;
+
+    --txtText: #333333;
+    --txtAccent: #4F4F4F;
+    --txtWhite: #fcfcfc;
+    
+    --space-sm: 0.5rem;
+    --space-md: 1rem;
+    --space-lg: 2rem;
+    --space-xlg: 3rem;
+}
+
+$colorPrimary: #333333;

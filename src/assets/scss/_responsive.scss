@@ -1,0 +1,32 @@
+@media (min-width: 768px){
+    .container{
+        max-width: 700px;
+        margin: 0 auto;
+    }
+    .wrapper{
+        row-gap: var(--space-md);
+    }
+    .hero__img{
+        width: 60%;
+    }
+}
+@media (min-width: 992px) {
+    .container{
+        max-width: 920px;
+    }
+    .hero{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        &__img{
+            width: 80%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}
+@media (min-width: 1200px) {
+    .container{
+        max-width: 1200px;
+    }
+}

@@ -1,0 +1,31 @@
+.header{
+    color: var(--txtText);
+    margin: var(--space-sm);
+    &__title{
+        font-family: var(--fontHeader);
+        font-size: var(--font-lg);
+    }
+}
+.footer{
+    text-align: center;
+    color: var(--txtText);
+    &__copy{
+        font-family: var(--fontFooter);
+        font-size: var(--font-sm);
+    }
+}
+.hero{
+    &__title{
+        color: var(--txtText);
+    }
+    &__description{
+        color: var(--txtAccent);
+    }
+    &__btn{
+        color: var(--txtWhite);
+        background-color: $colorPrimary;
+        &:hover{
+            background-color: darken($colorPrimary, 20);
+        }
+    }
+}
